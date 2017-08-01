@@ -8,6 +8,10 @@
     mc:Ignorable="d">
 
     <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+        <TextBlock HorizontalAlignment="Left" Margin="33,50,0,0" TextWrapping="Wrap" Text="Name:" VerticalAlignment="Top" Width="117" SelectionChanged="TextBlock_SelectionChanged" Height="32"/>
+        <TextBox HorizontalAlignment="Left" Margin="155,50,0,0" TextWrapping="Wrap" Text="Jane Doe" VerticalAlignment="Top" TextChanged="TextBox_TextChanged" Height="20" Width="148"/>
+        <TextBlock HorizontalAlignment="Left" Margin="33,10,0,0" TextWrapping="Wrap" Text="Employee ID" VerticalAlignment="Top" Height="26" Width="92"/>
+        <TextBox HorizontalAlignment="Left" Margin="155,4,0,0" TextWrapping="Wrap" Text="EMP237459" VerticalAlignment="Top" Width="148" TextChanged="TextBox_TextChanged_1"/>
 
     </Grid>
 </Page>
